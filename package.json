@@ -14,7 +14,8 @@
     }
   },
   "scripts": {
-    "test": "tape -r esm './{,!(node_modules)/**}/*.test.js' | tap-diff"
+    "test": "tape -r esm './{,!(node_modules)/**}/*.test.js' | tap-diff",
+    "release": "npm publish --access public"
   },
   "author": "Michiel van der Geest <hello@michielvandergeest.com>",
   "license": "MIT",
