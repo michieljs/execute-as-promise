@@ -70,8 +70,14 @@ executeAsPromise(myFunction, ['John', 'Doe])
 
 ## Tests
 
-To execute the unit tests execute:
+To execute the unit tests run:
 
 ```sh
 npm run test
 ```
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) Michiel van der Geest
